@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Radio.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">HW3-8</a> &gt; <a href="index.source.html" class="el_package">ru.netology.domain</a> &gt; <span class="el_source">Radio.java</span></div><h1>Radio.java</h1><pre class="source lang-java linenums">package ru.netology.domain;
+
+public class Radio {
+<span class="fc" id="L4">    private int minWave = 0;</span>
+<span class="fc" id="L5">    private int amountRadioWave = 10;</span>
+<span class="fc" id="L6">    private int maxWave = 9;</span>
+    private int currentWave;
+<span class="fc" id="L8">    private int minVolumeLevel = 0;</span>
+<span class="fc" id="L9">    private int maxVolumeLevel = 100;</span>
+    private int currentVolumeLevel;
+
+<span class="fc" id="L12">    public Radio(int amountRadioWave, int maxVolumeLevel) {</span>
+<span class="fc" id="L13">        this.amountRadioWave = amountRadioWave;</span>
+<span class="fc" id="L14">        this.maxWave = amountRadioWave - 1;</span>
+<span class="fc" id="L15">    }</span>
+<span class="fc" id="L16">    public Radio(){</span>
+
+<span class="fc" id="L18">    }</span>
+
+    public void setCurrentWave (int currentWave) {
+<span class="fc bfc" id="L21" title="All 4 branches covered.">        if (currentWave &gt; maxWave || currentWave &lt; minWave){</span>
+<span class="fc" id="L22">            return;</span>
+        }
+<span class="fc" id="L24">        this.currentWave = currentWave;</span>
+<span class="fc" id="L25">    }</span>
+    public int getCurrentWave() {
+<span class="fc" id="L27">        return currentWave;</span>
+    }
+
+    public int next() {
+<span class="fc bfc" id="L31" title="All 2 branches covered.">        if (currentWave &lt; maxWave){</span>
+<span class="fc" id="L32">            currentWave += 1;</span>
+        } else {
+<span class="fc" id="L34">            currentWave = minWave;</span>
+        }
+<span class="fc" id="L36">        return currentWave;</span>
+
+    }
+
+    public int previous() {
+<span class="fc bfc" id="L41" title="All 2 branches covered.">        if (currentWave &gt; minWave){</span>
+<span class="fc" id="L42">            currentWave -= 1;</span>
+        } else {
+<span class="fc" id="L44">            currentWave = maxWave;</span>
+        }
+<span class="fc" id="L46">        return currentWave;</span>
+    }
+
+    public void setCurrentVolumeLevel(int currentVolumeLevel){
+<span class="fc bfc" id="L50" title="All 4 branches covered.">        if (currentVolumeLevel &gt; maxVolumeLevel || currentVolumeLevel &lt; minVolumeLevel){</span>
+<span class="fc" id="L51">            return;</span>
+        }
+<span class="fc" id="L53">        this.currentVolumeLevel = currentVolumeLevel;</span>
+<span class="fc" id="L54">    }</span>
+
+    public int getCurrentVolume() {
+<span class="fc" id="L57">        return currentVolumeLevel;</span>
+    }
+
+    public int plusVolume() {
+<span class="fc bfc" id="L61" title="All 2 branches covered.">        if (currentVolumeLevel &lt; maxVolumeLevel){</span>
+<span class="fc" id="L62">            currentVolumeLevel += 1;</span>
+        }
+<span class="fc" id="L64">        return currentVolumeLevel;</span>
+    }
+
+    public int minusVolume(){
+<span class="fc bfc" id="L68" title="All 2 branches covered.">        if (currentVolumeLevel &gt; minVolumeLevel){</span>
+<span class="fc" id="L69">            currentVolumeLevel -= 1;</span>
+        }
+<span class="fc" id="L71">        return currentVolumeLevel;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.domain.RadioTest" time="0.586" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Sempela\Desktop\qwertyu\OOP_3\3_oop\hw\target\test-classes;C:\Users\Sempela\Desktop\qwertyu\OOP_3\3_oop\hw\target\classes;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Sempela\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Sempela\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sempela\AppData\Local\Temp\surefire4932907721295544806\surefirebooter8049080786749929141.jar C:\Users\Sempela\AppData\Local\Temp\surefire4932907721295544806 2021-10-05T20-43-45_346-jvmRun1 surefire18290912288926989239tmp surefire_01630261137153220403tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sempela\Desktop\qwertyu\OOP_3\3_oop\hw\target\test-classes;C:\Users\Sempela\Desktop\qwertyu\OOP_3\3_oop\hw\target\classes;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Sempela\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Sempela\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Sempela\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sempela"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sempela\Desktop\qwertyu\OOP_3\3_oop\hw"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sempela\AppData\Local\Temp\surefire4932907721295544806\surefirebooter8049080786749929141.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="Sempela"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Sempela\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sempela\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.2"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\Sempela\Desktop\qwertyu\OOP_3\3_oop\hw"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Sempela\AppData\Local\Microsoft\WindowsApps;C:\Users\Sempela\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldPressNext{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.158"/>
+  <testcase name="shouldPressNext{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.003"/>
+  <testcase name="shouldSetAndGetCurrentValume{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldSetAndGetCurrentValume{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.005"/>
+  <testcase name="shouldSetAndGetCurrentValume{int, int}[3]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldSetAndGetCurrentValume{int, int}[4]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldSetAndGetCurrentValume{int, int}[5]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldMinusCurrentValume{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldMinusCurrentValume{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldMinusCurrentValume{int, int}[3]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetAndGetCurrentRadioWave1{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetAndGetCurrentRadioWave1{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetAndGetCurrentRadioWave1{int, int}[3]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetAndGetCurrentRadioWave1{int, int}[4]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetAndGetCurrentRadioWave1{int, int}[5]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetAndGetCurrentWave{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.003"/>
+  <testcase name="shouldSetAndGetCurrentWave{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldSetAndGetCurrentWave{int, int}[3]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldSetAndGetCurrentWave{int, int}[4]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldSetAndGetCurrentWave{int, int}[5]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldPressNext1{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldPressNext1{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldPressPrevious{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldPressPrevious{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldPlusCurrentValume{int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldPlusCurrentValume{int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldPlusCurrentValume{int, int}[3]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+</testsuite>
